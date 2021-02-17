@@ -1,4 +1,5 @@
 addEventListener('DOMContentLoaded', () => {
+    document.title = 'World Clock';
     document.body.style.backgroundImage = 'url(b1.jpg)';   //styling the body
     document.body.style.overflow = 'hidden';
     document.body.style.backgroundSize = '100%';
