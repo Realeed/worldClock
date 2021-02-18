@@ -1,5 +1,9 @@
 setTimeout(() => {
     document.title = 'World Clock';
+    let icon = document.createElement('link');
+    icon.rel = 'icon';
+    icon.href = 'icon.png';
+    document.head.append(icon);
     document.body.style.backgroundImage = 'url(b1.jpg)';   //styling the body
     document.body.style.overflow = 'hidden';
     document.body.style.backgroundSize = '100%';
