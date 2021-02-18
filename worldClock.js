@@ -46,8 +46,10 @@ addEventListener('DOMContentLoaded', () => {
         date.style.fontSize = '140px';
         date.style.color = 'gray';
         document.body.append(date);
+        date.animate([{filter: 'blur(10px)'}, {filter: 'blur(0px)'}], 700);
         let time = document.createElement('p');
         time.style.fontSize = '150px';
+
 
         //getting the time
         let upd = () => {
@@ -74,6 +76,7 @@ addEventListener('DOMContentLoaded', () => {
         //setting interval for time to be updated every second
         setInterval(upd, 0);
         document.body.append(time);
+        time.animate([{filter: 'blur(40px)'}, {filter: 'blur(0px)'}], 700);
         document.body.append(other);
         other.onclick = () => {
             window.location.reload();
@@ -111,6 +114,7 @@ addEventListener('DOMContentLoaded', () => {
         date.style.fontSize = '140px';
         date.style.color = 'gray';
         document.body.append(date);
+        date.animate([{filter: 'blur(10px)'}, {filter: 'blur(0px)'}], 700);
         let time = document.createElement('p');
         time.style.fontSize = '150px';
 
@@ -139,6 +143,7 @@ addEventListener('DOMContentLoaded', () => {
         //setting interval for time to be updated every second
         setInterval(upd, 0);
         document.body.append(time);
+        time.animate([{filter: 'blur(40px)'}, {filter: 'blur(0px)'}], 700);
         document.body.append(other);
         other.onclick = () => {
             window.location.reload();
@@ -176,6 +181,7 @@ addEventListener('DOMContentLoaded', () => {
         date.style.fontSize = '140px';
         date.style.color = 'gray';
         document.body.append(date);
+        date.animate([{filter: 'blur(10px)'}, {filter: 'blur(0px)'}], 700);
         let time = document.createElement('p');
         time.style.fontSize = '150px';
 
@@ -204,6 +210,7 @@ addEventListener('DOMContentLoaded', () => {
         //setting interval for time to be updated every second
         setInterval(upd, 0);
         document.body.append(time);
+        time.animate([{filter: 'blur(40px)'}, {filter: 'blur(0px)'}], 700);
         document.body.append(other);
         other.onclick = () => {
             window.location.reload();
@@ -241,6 +248,7 @@ addEventListener('DOMContentLoaded', () => {
         date.style.fontSize = '140px';
         date.style.color = 'gray';
         document.body.append(date);
+        date.animate([{filter: 'blur(10px)'}, {filter: 'blur(0px)'}], 700);
         let time = document.createElement('p');
         time.style.fontSize = '150px';
 
@@ -269,6 +277,7 @@ addEventListener('DOMContentLoaded', () => {
         //setting interval for time to be updated every second
         setInterval(upd, 0);
         document.body.append(time);
+        time.animate([{filter: 'blur(40px)'}, {filter: 'blur(0px)'}], 700);
         document.body.append(other);
         other.onclick = () => {
             window.location.reload();
@@ -307,6 +316,7 @@ addEventListener('DOMContentLoaded', () => {
         date.style.fontSize = '140px';
         date.style.color = 'gray';
         document.body.append(date);
+        date.animate([{filter: 'blur(10px)'}, {filter: 'blur(0px)'}], 700);
         let time = document.createElement('p');
         time.style.fontSize = '150px';
 
@@ -335,6 +345,7 @@ addEventListener('DOMContentLoaded', () => {
         //setting interval for time to be updated every second
         setInterval(upd, 0);
         document.body.append(time);
+        time.animate([{filter: 'blur(40px)'}, {filter: 'blur(0px)'}], 700);
         document.body.append(other);
         other.onclick = () => {
             window.location.reload();
@@ -373,6 +384,7 @@ addEventListener('DOMContentLoaded', () => {
         date.style.fontSize = '140px';
         date.style.color = 'gray';
         document.body.append(date);
+        date.animate([{filter: 'blur(10px)'}, {filter: 'blur(0px)'}], 700);
         let time = document.createElement('p');
         time.style.fontSize = '150px';
 
@@ -401,6 +413,7 @@ addEventListener('DOMContentLoaded', () => {
         //setting interval for time to be updated every second
         setInterval(upd, 0);
         document.body.append(time);
+        time.animate([{filter: 'blur(40px)'}, {filter: 'blur(0px)'}], 700);
         document.body.append(other);
         other.onclick = () => {
             window.location.reload();
@@ -442,6 +455,7 @@ addEventListener('DOMContentLoaded', () => {
         date.style.fontSize = '140px';
         date.style.color = 'gray';
         document.body.append(date);
+        date.animate([{filter: 'blur(10px)'}, {filter: 'blur(0px)'}], 700);
         let time = document.createElement('p');
         time.style.fontSize = '150px';
 
@@ -470,6 +484,7 @@ addEventListener('DOMContentLoaded', () => {
         //setting interval for time to be updated every second
         setInterval(upd, 0);
         document.body.append(time);
+        time.animate([{filter: 'blur(40px)'}, {filter: 'blur(0px)'}], 700);
         document.body.append(other);
         other.onclick = () => {
             window.location.reload();
@@ -508,6 +523,7 @@ addEventListener('DOMContentLoaded', () => {
         date.style.fontSize = '140px';
         date.style.color = 'gray';
         document.body.append(date);
+        date.animate([{filter: 'blur(10px)'}, {filter: 'blur(0px)'}], 700);
         let time = document.createElement('p');
         time.style.fontSize = '150px';
 
@@ -536,6 +552,7 @@ addEventListener('DOMContentLoaded', () => {
         //setting interval for time to be updated every second
         setInterval(upd, 0);
         document.body.append(time);
+        time.animate([{filter: 'blur(40px)'}, {filter: 'blur(0px)'}], 700);
         document.body.append(other);
         other.onclick = () => {
             window.location.reload();
@@ -574,6 +591,7 @@ addEventListener('DOMContentLoaded', () => {
         date.style.fontSize = '140px';
         date.style.color = 'gray';
         document.body.append(date);
+        date.animate([{filter: 'blur(10px)'}, {filter: 'blur(0px)'}], 700);
         let time = document.createElement('p');
         time.style.fontSize = '150px';
 
@@ -602,6 +620,7 @@ addEventListener('DOMContentLoaded', () => {
         //setting interval for time to be updated every second
         setInterval(upd, 0);
         document.body.append(time);
+        time.animate([{filter: 'blur(40px)'}, {filter: 'blur(0px)'}], 700);
         document.body.append(other);
         other.onclick = () => {
             window.location.reload();
@@ -639,6 +658,7 @@ addEventListener('DOMContentLoaded', () => {
         date.style.fontSize = '140px';
         date.style.color = 'gray';
         document.body.append(date);
+        date.animate([{filter: 'blur(10px)'}, {filter: 'blur(0px)'}], 700);
         let time = document.createElement('p');
         time.style.fontSize = '150px';
 
@@ -667,6 +687,7 @@ addEventListener('DOMContentLoaded', () => {
         //setting interval for time to be updated every second
         setInterval(upd, 0);
         document.body.append(time);
+        time.animate([{filter: 'blur(40px)'}, {filter: 'blur(0px)'}], 700);
         document.body.append(other);
         other.onclick = () => {
             window.location.reload();
@@ -705,6 +726,7 @@ addEventListener('DOMContentLoaded', () => {
         date.style.fontSize = '140px';
         date.style.color = 'gray';
         document.body.append(date);
+        date.animate([{filter: 'blur(10px)'}, {filter: 'blur(0px)'}], 700);
         let time = document.createElement('p');
         time.style.fontSize = '150px';
 
@@ -733,6 +755,7 @@ addEventListener('DOMContentLoaded', () => {
         //setting interval for time to be updated every second
         setInterval(upd, 0);
         document.body.append(time);
+        time.animate([{filter: 'blur(40px)'}, {filter: 'blur(0px)'}], 700);
         document.body.append(other);
         other.onclick = () => {
             window.location.reload();
@@ -771,6 +794,7 @@ addEventListener('DOMContentLoaded', () => {
         date.style.fontSize = '140px';
         date.style.color = 'gray';
         document.body.append(date);
+        date.animate([{filter: 'blur(10px)'}, {filter: 'blur(0px)'}], 700);
         let time = document.createElement('p');
         time.style.fontSize = '150px';
 
@@ -799,6 +823,7 @@ addEventListener('DOMContentLoaded', () => {
         //setting interval for time to be updated every second
         setInterval(upd, 0);
         document.body.append(time);
+        time.animate([{filter: 'blur(40px)'}, {filter: 'blur(0px)'}], 700);
         document.body.append(other);
         other.onclick = () => {
             window.location.reload();
