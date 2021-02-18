@@ -806,7 +806,12 @@ addEventListener('DOMContentLoaded', () => {
     }
     document.querySelectorAll('button').forEach(button => {
         button.style.fontFamily = '"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace';
-        button.style.fontSize = '40px';
+        button.style.fontSize = '40px'
         button.style.cursor = 'pointer';
+        let keyframes = [
+            {opacity: 0, fontSize: '10px'},
+            {opacity: 1, fontSize: '40px'},
+        ];
+        button.animate(keyframes, 1000);
     })
 })
