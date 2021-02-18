@@ -1,4 +1,4 @@
-addEventListener('DOMContentLoaded', () => {
+const start = () => {
     document.title = 'World Clock';
     document.body.style.backgroundImage = 'url(b1.jpg)';   //styling the body
     document.body.style.overflow = 'hidden';
@@ -838,5 +838,6 @@ addEventListener('DOMContentLoaded', () => {
             {opacity: 1, fontSize: '40px'},
         ];
         button.animate(keyframes, 1000);
-    })
-})
+    });
+};
+setTimeout(start, 0);
