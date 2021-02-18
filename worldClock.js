@@ -1,4 +1,4 @@
-const start = () => {
+setTimeout(() => {
     document.title = 'World Clock';
     document.body.style.backgroundImage = 'url(b1.jpg)';   //styling the body
     document.body.style.overflow = 'hidden';
@@ -839,5 +839,4 @@ const start = () => {
         ];
         button.animate(keyframes, 1000);
     });
-};
-setTimeout(start, 0);
+}, 0)
